@@ -1,0 +1,117 @@
+#formBuilder{
+    margin-left: 20%;
+}
+#formBuilder #optionColumn{
+    width: 30%;
+    border: 1px solid #000;
+}
+#formBuilder .field{
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    color: #ffffff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4096ee+0,82b7ed+100 */
+    background: rgb(64,150,238); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(64,150,238,1) 0%, rgba(130,183,237,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(64,150,238,1) 0%,rgba(130,183,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(64,150,238,1) 0%,rgba(130,183,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#82b7ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-bottom: 1px solid #ffffff;
+}
+#formBuilder #formBuilder-form > div > div{
+    padding: 10px;
+}
+#formBuilder #formBuilder-form .actuallyMoving{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#formBuilder .placeholder-down{
+    padding-bottom: 20px;
+    background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#formBuilder .placeholder-up{
+    padding-top: 20px;
+    background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#formBuilder .placeholder{
+
+    background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#formBuilder #formBuilder-form > div.actualmoving > div{
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #ffffff;
+}
+#formBuilder .elementOFDrag input{
+    border: 0px;
+    border-bottom: 1px solid #000000;
+    background: #fff;
+    box-shadow: none;
+    padding: 8px;
+    margin-left: 20px;
+}
+#formBuilder .elementOFDrag textarea{
+    border: 0px;
+    border-bottom: 1px solid #000000;
+    background: #fff;
+    box-shadow: none;
+    padding: 8px;
+    width: 60%;
+    margin-left: 20px;
+}
+#formBuilder .mainLabel span{
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+}
+#formBuilder .inputLabel input,
+#formBuilder .mainLabel select,
+#formBuilder .mainLabel option{
+    width: 60%;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 0;
+    border-radius: 0px;
+}
+#formBuilder .mainLabel span{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 14px;
+}
+#formBuilder label{
+    display: block;
+}
+#formBuilder .mainLabel input[type=checkbox]{
+    width: auto;
+    height: 15px;
+    vertical-align: bottom;
+    margin-left: 0;
+}
+#formBuilder .mainLabel select{
+    height: 36px;
+    line-height: 36px;
+    width: calc(60% + 16px);
+}
+#formBuilder .fieldsTop > div,
+#formBuilder .fieldsBottom > div{
+    margin: 10px;
+}
+
+
+.mystyle {
+    color: red;
+}
